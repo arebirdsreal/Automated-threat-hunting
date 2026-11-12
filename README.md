@@ -94,7 +94,7 @@ sudo crontab -e
 ```
 Add the following line (replace `/path/to/repo` with your actual directory path):
 ```text
-* * * * * cd /path/to/repo && /usr/bin/python3 kali_hunter.py
+cd /path/to/repo && /usr/bin/python3 kali_hunter.py
 ```
 
 ### Step 4: Launch the Live Dashboard
