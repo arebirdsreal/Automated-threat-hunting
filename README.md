@@ -78,8 +78,10 @@ sudo systemctl restart auditd
 
 
 ### Step 2: Clone the Repository & Install Dependencies
-git clone https://github.com
+git clone https://github.com/arebirdsreal/Automated-threat-hunting
+
 cd automated-linux-threat-hunting
+
 pip install flask --break-system-packages
 
 
