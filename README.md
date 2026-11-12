@@ -119,9 +119,9 @@ sudo chmod 644 /etc/passwd
 sudo auditctl -s
 
 ---
-
-##  Project Structure:
+```text
 ├── kali_hunter.py    # Core log parser, noise filter, and MITRE mapping engine
 ├── app.py            # Flask web server and AJAX-enabled frontend dashboard
 ├── .gitignore        # Excludes local alerts.json and Python cache files
 └── README.md         # Project documentation and deployment guide
+```
